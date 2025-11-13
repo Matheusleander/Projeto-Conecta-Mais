@@ -45,3 +45,35 @@ CONECTAMAIS/
 - Redirecionamento para a **página principal** após login bem-sucedido  
 - Validação de dados com **JavaScript**
 
+## ⚙️ Como Executar o Projeto
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/usuario/conectamais.git
+
+Instale as dependências
+
+bash
+
+npm install
+
+Configure o arquivo .env com os dados do seu banco MySQL:
+
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=sua_senha
+DB_NAME=conectamais
+
+Importe o banco de dados
+
+Use o arquivo database/conectamais.sql no MySQL Workbench ou phpMyAdmin.
+
+Execute o servidor
+
+bash
+
+node src/server.js
+
+Acesse o sistema
+Abra o navegador e vá até: http://localhost:3000
